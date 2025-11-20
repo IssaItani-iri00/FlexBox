@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 80px;
+    color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 80px;
+    color: white;
+}
